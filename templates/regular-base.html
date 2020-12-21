@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Label - Premium Responsive Bootstrap 4 Admin & Dashboard Template</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='/vendors/iconfonts/mdi/css/materialdesignicons.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='/css/shared/style.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='/css/demo_1/style.css') }}">
+    <link rel="shortcut icon" href="{{ url_for('static', filename='/images/favicon.ico') }}" />
+</head>
+
+<body class="header-fixed">
+
+{% block content %} {% endblock %}
+
+
+<!-- partial:partials/_footer.html -->
+<footer class="footer">
+    <div class="row">
+        <div class="col-sm-6 text-center text-sm-right order-sm-1">
+            <ul class="text-gray">
+                <li><a href="#">Terms of use</a></li>
+                <li><a href="#">Privacy Policy</a></li>
+            </ul>
+        </div>
+        <div class="col-sm-6 text-center text-sm-left mt-3 mt-sm-0">
+            <small class="text-muted d-block">Copyright © 2019 <a href="http://www.uxcandy.co"
+                    target="_blank">UXCANDY</a>. All rights reserved</small>
+            <small class="text-gray mt-2">Handcrafted With <i class="mdi mdi-heart text-danger"></i></small>
+        </div>
+    </div>
+</footer>
+<!-- partial -->
+</div>
+<!-- page content ends -->
+</div>
+<script src="{{ url_for('static', filename='/vendors/js/core.js') }}"></script>
+<script src="{{ url_for('static', filename='/vendors/apexcharts/apexcharts.min.js') }}"></script>
+<script src="{{ url_for('static', filename='/vendors/chartjs/Chart.min.js') }}"></script>
+<script src="{{ url_for('static', filename='/js/charts/chartjs.addon.js') }}"></script>
+<script src="{{ url_for('static', filename='/js/template.js') }}"></script>
+<script src="{{ url_for('static', filename='/js/dashboard.js') }}"></script>
+</body>
+
+</html>
